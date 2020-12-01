@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
   $("#living-window").click(function(){
-    alert("hello");
+   // alert("hello");
     $("#living-window-off").hide();
     $("#living-window-on").show();
     $("#living-fan-off").show();
