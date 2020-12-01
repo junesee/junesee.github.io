@@ -20,6 +20,13 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
+    <script>
+$(document).ready(function(){
+  $("#living-fan").click(function(){
+    alert("The paragraph was clicked.");
+  });
+});
+</script>
 </head>
 
 <body id="page-top">
@@ -32,9 +39,10 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
+                <!--div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
-                </div>
+                </div-->
+                <img src="img/logo.jpg" width="50px"/>
                 <div class="sidebar-brand-text mx-3">SWS <sup></sup></div>
             </a>
 
@@ -220,10 +228,6 @@
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Settings
                                 </a>
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Activity Log
-                                </a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
@@ -252,13 +256,14 @@
 
                         <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
+                            <div class="card border-left-primary shadow h-100 py-2" id="living-window">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                                Living Room - Window</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray">CLOSED</div>
+                                            <div class="h5 mb-0 font-weight-bold text-success" id="living-window-on" style="display:none">OPENED</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray" id="living-window-off">CLOSED</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-border-all fa-2x text-gray-300"></i>
@@ -270,13 +275,14 @@
 
                         <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
+                            <div class="card border-left-primary shadow h-100 py-2" id="living-fan">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                                 Living Room - Fan</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray">OFF</div>
+                                            <div class="h5 mb-0 font-weight-bold text-success" id="living-fan-on">ON</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray" id="living-fan-off" style="display:none">OFF</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-fan fa-2x text-gray-300"></i>
@@ -288,13 +294,14 @@
 
                              <!-- Pending Requests Card Example -->
                      <div class="col-xl-3 col-md-6 mb-4">
-                        <div class="card border-left-primary shadow h-100 py-2">
+                        <div class="card border-left-primary shadow h-100 py-2" id="living-ac">
                             <div class="card-body">
                                 <div class="row no-gutters align-items-center">
                                     <div class="col mr-2">
                                         <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                            Living Room - AC</div>
-                                        <div class="h5 mb-0 font-weight-bold text-success">ON</div>
+                                        <div class="h5 mb-0 font-weight-bold text-success" id="living-ac-on">ON</div>
+                                        <div class="h5 mb-0 font-weight-bold text-gray" id="living-ac-off" style="display:none">OFF</div>
                                     </div>
                                     <div class="col-auto">
                                         <i class="fas fa-box fa-2x text-gray-300"></i>
@@ -387,14 +394,14 @@
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
                                         </a>
-                                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                        <!--div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                             aria-labelledby="dropdownMenuLink">
                                             <div class="dropdown-header">Dropdown Header:</div>
                                             <a class="dropdown-item" href="#">Action</a>
                                             <a class="dropdown-item" href="#">Another action</a>
                                             <div class="dropdown-divider"></div>
                                             <a class="dropdown-item" href="#">Something else here</a>
-                                        </div>
+                                        </div-->
                                     </div>
                                 </div>
                                 <!-- Card Body -->
@@ -471,6 +478,8 @@
     <!-- Page level custom scripts -->
     <script src="js/demo/chart-area-demo.js"></script>
     <script src="js/demo/chart-pie-demo.js"></script>
+
+    <script src="js/app.js"></script>
 
 </body>
 
