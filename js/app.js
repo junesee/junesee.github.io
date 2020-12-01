@@ -2,11 +2,11 @@
 $(document).ready(function(){
   $("#living-window").click(function(){
    // alert("hello");
-    $("#living-window-off").hide();
-    $("#living-window-on").show();
-    $("#living-fan-off").show();
-    $("#living-fan-on").hide();
-    $("#living-ac-off").show();
-    $("#living-ac-on").hide();
+    $("#living-window-off").toggle();
+    $("#living-window-on").toggle();
+    $("#living-fan-off").toggle();
+    $("#living-fan-on").toggle();
+    $("#living-ac-off").toggle();
+    $("#living-ac-on").toggle();
   });
 });
