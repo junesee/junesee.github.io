@@ -531,8 +531,12 @@ figure {
   padding-left: 0;
 }
 
+.big-article-image-wrapper.ggc-bg2 {
+  background-image: url('../img/shrimp.webp');
+}
+
 .big-article-image-wrapper.ggc-bg {
-  background-image: url('../images/header-group.jpg');
+  background-image: url('../img/docugenai.png');
 }
 
 .big-article-image-wrapper.jka-thumb {
