@@ -499,7 +499,7 @@ figure {
   width: 100%;
 }
 
-.big-article {
+.big-article  {
   background-color: #fff;
   border-radius: 8px;
   flex-wrap: wrap;
@@ -509,6 +509,12 @@ figure {
   transition: all .12s;
   display: flex;
   box-shadow: 0 5px 15px rgba(0, 0, 0, .1), 0 15px 35px rgba(0, 0, 0, .05);
+}
+
+a.big-article {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
 }
 
 .project-text-wrapper {
