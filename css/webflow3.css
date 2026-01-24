@@ -213,8 +213,30 @@ figure {
   display: flex;
 }
 
+.opener-image.jka3 {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/docugenai.png');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
 .opener-image.jka2 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/gemba2.png');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.opener-image.jka4 {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/shrimp.webp');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
