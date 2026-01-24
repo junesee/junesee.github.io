@@ -1319,29 +1319,6 @@ figure {
   text-decoration: underline;
 }
 
-.webflow-affilliate {
-  z-index: 99999;
-  background-color: #fff;
-  border-radius: 3px;
-  justify-content: center;
-  align-items: center;
-  padding: 6px 8px;
-  text-decoration: none;
-  display: flex;
-  position: fixed;
-  top: auto;
-  bottom: 12px;
-  left: auto;
-  right: 12px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, .1), 0 0 0 1px rgba(0, 0, 0, .1);
-}
-
-._wf-logo {
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-}
-
 .star {
   font-size: 16px;
   line-height: 14px;
@@ -1895,12 +1872,6 @@ figure {
   .text-block-15 {
     margin-bottom: 8px;
     line-height: 1.45em;
-  }
-
-  .webflow-affilliate {
-    top: 8px;
-    bottom: auto;
-    right: 8px;
   }
 }
 
