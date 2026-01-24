@@ -203,7 +203,7 @@ figure {
 }
 
 .opener-image.jka {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/nal.png');
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/NAL.png');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
