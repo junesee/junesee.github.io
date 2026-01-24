@@ -541,6 +541,10 @@ a.big-article {
   background-image: url('../img/shrimp.webp');
 }
 
+.big-article-image-wrapper.ggc-bg3 {
+  background-image: url('../img/aidozer.png');
+}
+
 .big-article-image-wrapper.ggc-bg {
   background-image: url('../img/docugenai.png');
 }
