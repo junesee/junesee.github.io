@@ -190,6 +190,7 @@ figure {
   height: 380px;
   max-height: 95vh;
   margin-bottom: 1.5rem;
+  margin-top: 120px;
 }
 
 .opener-image.ggc {
@@ -1524,7 +1525,7 @@ figure {
   }
 }
 
-@media screen and (max-width: 479px) {
+/*@media screen and (max-width: 479px) {
   .rich-kid {
     font-size: 16px;
   }
@@ -1874,7 +1875,7 @@ figure {
     line-height: 1.45em;
   }
 }
-
+*/
 
 @font-face {
   font-family: 'L-PTSans';

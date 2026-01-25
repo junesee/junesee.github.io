@@ -1490,7 +1490,7 @@ a.big-article {
   }
 }
 
-@media screen and (max-width: 479px) {
+/*@media screen and (max-width: 479px) {
   .rich-kid {
     font-size: 16px;
   }
@@ -1840,8 +1840,7 @@ a.big-article {
     line-height: 1.45em;
   }
 }
-
-
+*/
 @font-face {
   font-family: 'L-PTSans';
   src: url('../fonts/L-PTSans-BoldItalic.ttf') format('truetype');
