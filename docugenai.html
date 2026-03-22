@@ -138,9 +138,24 @@
         <div class="attribute">Sector</div>
         <div>Mobility / Automotive Aftermarket</div>
       </div>
+       <div class="row">
+        <div class="attribute">Role</div>
+        <div>UX Designer · End-to-End Experience Design ·  Conversational UX  · Interaction Design</div>
+      </div>
+      <div class="row">
+        <div class="attribute">Team</div>
+        <div>UX Designer · Product Manager · Customer Liaison (Australia) · Engineering</div>
+      </div>
+        <div class="row">
+        <div class="attribute">Duration</div>
+        <div>6 months · 2024–2025 (initial design 2 months, refinement 4 months)</div>
+      </div>
         <div class="row">
         <div class="attribute">Overview</div>
-        <div>An AI-powered document retrieval and conversational interface designed to help automotive workshop technicians and support staff quickly access technical information—ranging from parts lists and repair instructions to fault-finding guidance—across large and complex document repositories.
+        <div>
+
+          An AI-powered document retrieval and conversational interface designed for automotive workshop technicians, helping them quickly access technical information across large document repositories, from parts lists and repair instructions to fault-finding guidance.<br/>
+The product is actively used by technicians today, and has since evolved beyond document retrieval to provide repair advice directly within the interface.
                     <img src="img/docugenai-home.png" style="width:70%;margin: 10px auto;display: block;">
         </div>
       </div>
@@ -148,27 +163,25 @@
         <div class="attribute">Problem Context</div>
         <div>
 
-          Automotive workshops operate in time-critical environments where technicians must diagnose and repair vehicles quickly and accurately. Access to technical documentation is essential, yet often inefficient.<br/>
-          Technicians spent excessive time searching for relevant technical documents. Existing interfaces made it difficult to query information naturally and efficiently, slowing repair and service workflows.<br/>
+          Automotive workshops operate in time-critical environments. Technicians need to diagnose and repair vehicles quickly and accurately, and access to the right technical documentation is essential to getting that done.<br/>
+Bosch service centres had an existing document search tool, but it was old-school. Technicians had to know exactly what to search for and navigate through long PDFs to find what they needed. In a fast-paced workshop environment, that friction added up.<br/>
+The real insight: technicians weren't looking for documents. They were trying to complete repairs.
             <img src="img/docugenai-existing.png" style="width:90%;margin: 10px auto;display: block;">
 
         </div>
       </div>
-      <div class="row">
-        <div class="attribute">Role & Scope</div>
-        <div>UX Designer · End-to-End Experience Design · Conversational UX & Interaction Design</div>
-      </div>
+
       <div class="row">
         <div class="attribute">Research & Discovery</div>
         <div>
-          Insights for this project were informed through close collaboration with regional colleagues in Australia who work directly with automotive workshops and technician support teams.<br/>
-
-These discussions highlighted that while technicians may begin with symptoms, procedures, or fault-finding questions, their primary objective is almost always to identify the correct part number in order to proceed with ordering and completing repairs.<br/>
+         There was no direct access to technicians during the design phase. Instead, insights came through a customer liaison in Australia who worked directly with service centres — fielding our questions to technicians on our behalf and relaying findings back to the team.<br/>
+This informal but structured feedback loop surfaced a critical pattern: technicians almost always started with a symptom, procedure, or fault-finding question — but their end goal was almost always the same: identify the correct part number to proceed with ordering and completing the repair..<br/>
   <img src="img/docugenai-existingjourney.png" style="margin: 10px auto;display: block;">
 <i>Key insights:</i><br/>
           <ul>
-            <li>Technicians often start with task-based needs but quickly pivot toward part identification</li>
-            <li>Accurate part numbers are critical for downstream actions including ordering, pricing, and avoiding repeat repairs</li>
+            <li>Technicians think in tasks and symptoms, not document names or file structuresn</li>
+            <li>Accurate part numbers are critical — wrong parts mean repeat repairs, delays, and cost</li>
+            <li>The existing search tool required precise query phrasing that technicians didn't naturally use</li>
           </ul>
    This understanding shaped the overall UX strategy.
      <img src="img/docugenai-idealjourney.png" style="margin: 10px auto;display: block;">
@@ -189,6 +202,7 @@ Conversational interactions are used to progressively guide users from broad tas
 AI responses are structured to surface the most relevant information first - such as key steps or part numbers, while allowing users to access additional detail or source documentation as needed. This avoided overwhelming users with long PDFs while maintaining traceability to source material.</li>
           </ul>
             <img src="img/docugenai-chat.png" style="width:70%;margin: 10px auto;display: block;">
+            Throughout the refinement phase, feedback from the Australian team informed ongoing improvements to response structure, query handling, and the overall flow.
         </div>
       </div>
 
@@ -196,6 +210,7 @@ AI responses are structured to surface the most relevant information first - suc
         <div class="attribute">Outcome & Impact</div>
         <div>
           <ul>
+            <li>The product is actively used by Bosch service centre technicians today</li>
             <li>Reduced time to locate relevant technical information, improving overall workshop efficiency</li>
             <li>Improved usability and clarity compared to traditional search interfaces</li>
             <li>Increased technician confidence in using AI assistance as part of their workflow</li>
@@ -205,7 +220,7 @@ AI responses are structured to surface the most relevant information first - suc
       </div>
 
     <div class="rich-kid learning w-richtext">
-        <p><strong>💭 Reflection<br>&zwj;</strong> This project reinforced that in operational environments, AI usability is less about flexibility and more about trust and task completion. While conversational interfaces can feel powerful, technicians valued experiences that helped them reach a clear outcome—particularly accurate part identification—with minimal friction.<br/>
+        <p><strong>💭 Reflection<br>&zwj;</strong> In operational environments, AI usability is less about flexibility and more about trust and task completion. While conversational interfaces can feel powerful, technicians valued experiences that helped them reach a clear outcome—particularly accurate part identification—with minimal friction.<br/>
 
 Balancing conversational freedom with structured guidance proved essential. Designing the AI as a supportive navigation layer, rather than an all-knowing assistant, helped set appropriate expectations and increased confidence in the system’s outputs.</p>
       
