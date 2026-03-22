@@ -137,41 +137,94 @@
         <div class="attribute">Sector</div>
         <div>Manufacturing / Industrial AI</div>
       </div>
+             <div class="row">
+        <div class="attribute">Role</div>
+        <div>
+UX Designer · Requirements Gathering · Workflow Design · Interaction Design
+          </div>
+      </div>
+      <div class="row">
+        <div class="attribute">Team</div>
+        <div>UX Designer · Product Manager · Data Scientist (Bosch Japan) · Engineering</div>
+      </div>
+        <div class="row">
+        <div class="attribute">Duration</div>
+        <div>3–4 months initial · ongoing refinement · 2025–2026</div>
+      </div>
        <div class="row">
         <div class="attribute">Overview</div>
-        <div>An ML platform for monitoring models and detecting anomalies in production systems.
-        <img src="img/trainml.png" style="width:100%;margin: 15px auto;display: block;"/>
+        <div>
+Factory Mind is an ML platform built around a real manufacturing challenge at a Bosch plant in Japan, where a data scientist and his team developed an in-house anomaly detection system to solve a critical quality problem on a production assembly line.<br/>
+The original solution ran on a standard company laptop with an off-the-shelf USB camera — a deliberately low-cost approach that proved the concept without heavy infrastructure investment. When the Bosch Digital dev team collaborated with the BVMS Japan team to build a UI version, I was brought in to design the end-to-end interface, translating a Python workflow into something visual, structured, and usable.<br/>
+The platform was later adopted by a Korean Bosch business unit for their own production anomaly detection needs, where I customised the experience for their specific workflow and also designed a standalone offline Python app.
+        <img src="img/gemba1.png" style="width:100%;margin: 15px auto;display: block;"/>
         </div>
       </div>
       <div class="row">
         <div class="attribute">Problem Context</div>
-        <div>While users were ML experts, the UI did not support their workflows efficiently.</div>
+        <div>On a Bosch production assembly line in Japan, there was a rare but critical risk: a small component could become misplaced during assembly in a way that was difficult to catch through manual inspection. If undetected, it could lead to a serious quality issue downstream.<br/>
+Manual inspection couldn't reliably catch something this rare at production scale. The team needed an automated way to detect the anomaly consistently, without expensive equipment or lengthy development cycles.<br/>
+The Python-based AI model solved the detection problem. But it ran as a command-line tool with no interface, accessible only to those who built it. My role was to give it a UI that made the system usable beyond the original team, and eventually scalable to other plants and use cases.
+</div>
       </div>
       <div class="row">
-        <div class="attribute">Role & Scope</div>
-        <div>UX Designer · Requirements Gathering· Workflow Design</div>
-      </div>
-      <div class="row">
-        <div class="attribute">What I did</div>
+        <div class="attribute">Research and Discovery</div>
         <div>
-          <ul>
-            <li>Worked with ML engineers and domain experts to map end-to-end workflows, dependencies, and decision points</li>
-            <li>Mapped expert decision paths, shortcuts, and critical moments in model and anomaly analysis</li>
-            <li>Redesigned UI flows to surface relevant signals faster and reduce unnecessary interaction steps</li>
-            <li>Collaborated closely with engineering to ensure designs reflected real ML constraints and data behavior</li>
-          </ul>
+           Requirements were gathered through direct conversations with the ML engineers and data scientists from BVMS Japan, who explained how the system worked and what users needed to accomplish at each stage. I worked with them to map end-to-end workflows, dependencies, and decision points, including expert decision paths, shortcuts, and critical moments in model and anomaly analysis.<br/>
+I also studied Lobe. It is a beginner-friendly ML tool with a clean, guided interface. It is a reference point for how ML workflows could be made approachable without sacrificing capability. The principle I took from it: structure the flow, reduce the number of decisions at any one moment, and give users clear visual feedback at each step.
+        </div>
+      </div>
+      <div class="row">
+        <div class="attribute">Design Approach</div>
+        <div>
+           The platform covered four key stages:
+ <ol>
+            <li><b>Preprocessing</b>
+Users needed to crop images taken of factory products under controlled conditions before feeding them into the ML model. I designed this as a clear guided step, making the preparation stage explicit and reducing errors before training began.</li>
+            <li>
+<b>Model Training</b>
+Users configured and ran ML model training. I redesigned UI flows to surface relevant signals faster and reduce unnecessary interaction steps, making progress, status, and key parameters clear without requiring users to interpret raw outputs.gem
+            <li>
+<b>Results & Report Viewing</b>
+Users needed to see training scores and understand model performance. I designed the results view to surface the most important metrics first, making it easy to assess whether the model was ready without needing to parse technical logs.</li>
+            <li>
+<b>Anomaly Detection</b>
+Once trained, the model was used to detect anomalies in production. I designed the monitoring interface to surface critical signals quickly, supporting fast decision-making in an operational context.</li>
+          </ol>
+Throughout, I collaborated closely with engineering to ensure designs reflected real ML constraints and data behaviour, prototypes served as a shared reference for resolving technical and UX decisions together.<br/>
+<i>Korean plant customisation</i>
+When the Korean Bosch business unit adopted the platform, I customised the interface for their specific ML model and workflow. I also designed a standalone offline Python app for anomaly detection, extending the same design principles into a different deployment context.<br/>
+<br/>
+<i style="color:#999;font-size: 14px;line-height: 8px;">Detailed screens available on request.</i>
+
+
         </div>
       </div>
         <div class="row">
         <div class="attribute">Outcome & Impact</div>
         <div>
           <ul>
-            <li>Improved efficiency of expert workflows during monitoring and anomaly investigation</li>
-            <li>Reduced friction and interaction overhead in daily ML operations</li>
-            <li>Better alignment between expert mental models and system interactions</li>
+            <li>Platform adopted beyond the original team, a Korean Bosch business unit picked it up for active production use
+</li>
+            <li>Expanded from a single use case to multiple workflows including offline anomaly detection
+</li>
+            <li>Ongoing refinement continues as the platform evolves. A sign of active, real-world usage</li>
+            <li>
+Reduced friction and interaction overhead in daily ML operations</li>
+            <li>
+Better alignment between expert mental models and system interactions</li>
           </ul>
         </div>
       </div>
+    </div>
+     <div class="learning-wrapper">
+      <div class="rich-kid learning w-richtext">
+        <p><strong>💭 Reflection</strong></p>
+        I avoided ML for most of my career, convinced I'd never understand it.<br/>
+This project proved me wrong. And that shift changed how I approach designing for technical domains. You don't need to be an expert to design well for experts. You need to be curious enough to ask the right questions, honest enough to admit when something doesn't make sense, and persistent enough to keep asking until it does.<br/>
+The fact that I struggled to understand existing ML tools wasn't a weakness, it was actually useful data. If I couldn't follow the flow, there was work to do. Designing from that position of genuine confusion, rather than assumed understanding, led to cleaner, more human decisions.
+      </div>
+     
     </div>
  <div class="learning-wrapper">
       <div class="rich-kid">
