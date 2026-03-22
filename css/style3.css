@@ -135,6 +135,10 @@ figure {
   color: #333;
 }
 
+.rich-kid a.home {
+    font-size: 14px;
+}
+
 .rich-kid ul {
   margin-bottom: 2.5rem;
   margin-left: -5px;
