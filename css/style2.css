@@ -537,6 +537,10 @@ a.big-article {
   padding-left: 0;
 }
 
+.big-article-image-wrapper.ggc-bg4 {
+  background-image: url('../img/marco-thumb.png');
+}
+
 .big-article-image-wrapper.ggc-bg2 {
   background-image: url('../img/shrimp.webp');
 }
