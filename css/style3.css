@@ -449,23 +449,24 @@ p.rich-kid.learning {
 .button {
   float: none;
   color: #fff;
-  background-color: #333;
+  background-color: #888;
   border-radius: 70px;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding-left: 36px;
-  padding-right: 36px;
-  font-size: 18px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-right: 12px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 40px;
   transition: all .2s;
   display: inline-block;
 }
 
-.button:hover {
+/*.button:hover {
   transform: translate(0, -2px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, .1), 0 15px 35px rgba(0, 0, 0, .1);
-}
+}*/
 
 .nav-outer-wrapper {
   z-index: 9999;
@@ -871,6 +872,10 @@ p.rich-kid.learning {
   margin-bottom: 8px;
   padding-bottom: 8px;
   display: flex;
+}
+
+.row:last-child {
+  border-bottom: 0;
 }
 
 .attribute {
