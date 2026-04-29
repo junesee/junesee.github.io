@@ -528,7 +528,7 @@ a.big-article {
 }
 
 .big-article-image-wrapper {
-  background-image: url('../img/gemba2.png');
+  background-image: url('../img/mlui.jpeg');
   background-position: 50%;
   background-size: cover;
   border-top-left-radius: 10px;
@@ -538,11 +538,11 @@ a.big-article {
 }
 
 .big-article-image-wrapper.ggc-bg4 {
-  background-image: url('../img/marco-thumb.png');
+  background-image: url('../img/marco-thumb1.png');
 }
 
 .big-article-image-wrapper.ggc-bg2 {
-  background-image: url('../img/shrimp.webp');
+  background-image: url('../img/shrimp1.png');
 }
 
 .big-article-image-wrapper.ggc-bg3 {
@@ -554,7 +554,7 @@ a.big-article {
 }
 
 .big-article-image-wrapper.jka-thumb {
-  background-image: url('../img/NAL.png');
+  background-image: url('../img/NAL-UX1.webp');
 }
 
 .body-3 {

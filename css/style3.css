@@ -219,7 +219,7 @@ p.rich-kid.learning {
 }
 
 .opener-image.jka {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/nal.jpg');
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/NAL-UX1.webp');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
@@ -230,7 +230,7 @@ p.rich-kid.learning {
 }
 
 .opener-image.jka6 {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/MARCO.png');
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/marco.jpeg');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
@@ -241,7 +241,7 @@ p.rich-kid.learning {
 }
 
 .opener-image.jka3 {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/docugenai.png');
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/docugenai1.jpeg');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
@@ -252,7 +252,7 @@ p.rich-kid.learning {
 }
 
 .opener-image.jka2 {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/gemba2.png');
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/mlui.jpeg');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
