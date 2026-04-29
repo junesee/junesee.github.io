@@ -219,7 +219,7 @@ p.rich-kid.learning {
 }
 
 .opener-image.jka {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/NAL-UX1.webp');
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/NAL-header.png');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
