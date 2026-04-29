@@ -134,67 +134,53 @@
   <div class="site-wrapper">
     <div class="div-block-16">
       <div class="row">
-        <div class="attribute">Sector</div>
-        <div>Manufacturing / Industrial AI</div>
-      </div>
-             <div class="row">
-        <div class="attribute">Role</div>
-        <div>
-UX Designer · Requirements Gathering · Workflow Design · Interaction Design
-          </div>
-      </div>
-      <div class="row">
-        <div class="attribute">Team</div>
-        <div>UX Designer · Product Manager · Data Scientist (Bosch Japan) · Engineering</div>
-      </div>
-        <div class="row">
-        <div class="attribute">Duration</div>
-        <div>3–4 months initial · ongoing refinement · 2025–2026</div>
+         <div class="tagline">Manufacturing AI · ML Workflow UX · Multi-platform</div>
       </div>
        <div class="row">
         <div class="attribute">Overview</div>
         <div>
-Factory Mind is an ML platform built around a real manufacturing challenge at a Bosch plant in Japan, where a data scientist and his team developed an in-house anomaly detection system to solve a critical quality problem on a production assembly line.<br/>
-The original solution ran on a standard company laptop with an off-the-shelf USB camera — a deliberately low-cost approach that proved the concept without heavy infrastructure investment. When the Bosch Digital dev team collaborated with the BVMS Japan team to build a UI version, I was brought in to design the end-to-end interface, translating a Python workflow into something visual, structured, and usable.<br/>
-The platform was later adopted by a Korean Bosch business unit for their own production anomaly detection needs, where I customised the experience for their specific workflow and also designed a standalone offline Python app.
+Machine learning solutions in manufacturing environments often involve complex workflows across data inputs, model configuration, monitoring, and operational deployment. These tools are frequently built for technical users, making adoption difficult for broader business and operational teams.<br>
+
         <img src="img/gemba1.png" style="width:100%;margin: 15px auto;display: block;"/>
         </div>
       </div>
       <div class="row">
+        <div class="attribute">My Role</div>
+        <div>UX Designer responsible for workflow design, interface concepts, prototyping, and usability improvements in collaboration with product, engineering, and technical stakeholders.
+</div>
+      </div>
+       <div class="row">
         <div class="attribute">Problem Context</div>
-        <div>On a Bosch production assembly line in Japan, there was a rare but critical risk: a small component could become misplaced during assembly in a way that was difficult to catch through manual inspection. If undetected, it could lead to a serious quality issue downstream.<br/>
-Manual inspection couldn't reliably catch something this rare at production scale. The team needed an automated way to detect the anomaly consistently, without expensive equipment or lengthy development cycles.<br/>
-The Python-based AI model solved the detection problem. But it ran as a command-line tool with no interface, accessible only to those who built it. My role was to give it a UI that made the system usable beyond the original team, and eventually scalable to other plants and use cases.
+        <div>
+
+Originally built as a Python command-line tool by a data science team in Japan, the system successfully detected rare production defects using a low-cost camera setup. My role was to transform the workflow into a structured, usable product that could scale beyond the original expert team.
 </div>
       </div>
       <div class="row">
-        <div class="attribute">Research and Discovery</div>
+        <div class="attribute">What I Solved</div>
         <div>
-           Requirements were gathered through direct conversations with the ML engineers and data scientists from BVMS Japan, who explained how the system worked and what users needed to accomplish at each stage. I worked with them to map end-to-end workflows, dependencies, and decision points, including expert decision paths, shortcuts, and critical moments in model and anomaly analysis.<br/>
-I also studied Lobe. It is a beginner-friendly ML tool with a clean, guided interface. It is a reference point for how ML workflows could be made approachable without sacrificing capability. The principle I took from it: structure the flow, reduce the number of decisions at any one moment, and give users clear visual feedback at each step.
+          I designed interfaces that simplified machine learning operations into clearer, more manageable workflows across multiple platforms.<br>
+
+<ul><li><b>Guided ML Workflows</b><br>
+
+Designed clear interfaces for image preprocessing, model training, results review, and anomaly detection.</li>
+
+<li><b>Faster Operational Decisions</b><br>
+
+Surfaced critical metrics and alerts clearly, helping users assess model readiness and respond quickly in production settings.</li>
+
+<li><b>Cross-Market Scalability</b><br>
+
+Customised the platform for a Korean Bosch business unit and designed an offline Python app for local deployment needs.</li></ul>
+
         </div>
       </div>
       <div class="row">
-        <div class="attribute">Design Approach</div>
+        <div class="attribute">Why This Decision Mattered</div>
         <div>
-           The platform covered four key stages:
- <ol>
-            <li><b>Preprocessing</b>
-Users needed to crop images taken of factory products under controlled conditions before feeding them into the ML model. I designed this as a clear guided step, making the preparation stage explicit and reducing errors before training began.</li>
-            <li>
-<b>Model Training</b>
-Users configured and ran ML model training. I redesigned UI flows to surface relevant signals faster and reduce unnecessary interaction steps, making progress, status, and key parameters clear without requiring users to interpret raw outputs.gem
-            <li>
-<b>Results & Report Viewing</b>
-Users needed to see training scores and understand model performance. I designed the results view to surface the most important metrics first, making it easy to assess whether the model was ready without needing to parse technical logs.</li>
-            <li>
-<b>Anomaly Detection</b>
-Once trained, the model was used to detect anomalies in production. I designed the monitoring interface to surface critical signals quickly, supporting fast decision-making in an operational context.</li>
-          </ol>
-Throughout, I collaborated closely with engineering to ensure designs reflected real ML constraints and data behaviour, prototypes served as a shared reference for resolving technical and UX decisions together.<br/>
-<i>Korean plant customisation</i>
-When the Korean Bosch business unit adopted the platform, I customised the interface for their specific ML model and workflow. I also designed a standalone offline Python app for anomaly detection, extending the same design principles into a different deployment context.<br/>
-<br/>
+          Many AI tools fail not because the models are weak, but because the surrounding workflows are too complex for everyday users.<br>
+
+By improving usability and clarity, the product could be used by a wider group of stakeholders beyond technical specialists.
      <img src="img/trainml.png" style="width:100%;margin: 15px auto;display: block;"/>
 <!--i style="color:#999;font-size: 14px;line-height: 8px;">Detailed screens available on request.</i-->
 
@@ -202,28 +188,35 @@ When the Korean Bosch business unit adopted the platform, I customised the inter
         </div>
       </div>
         <div class="row">
-        <div class="attribute">Outcome & Impact</div>
+        <div class="attribute">Outcome</div>
         <div>
-          <ul>
-            <li>Platform adopted beyond the original team, a Korean Bosch business unit picked it up for active production use
-</li>
-            <li>Expanded from a single use case to multiple workflows including offline anomaly detection
-</li>
-            <li>Ongoing refinement continues as the platform evolves. A sign of active, real-world usage</li>
-            <li>
-Reduced friction and interaction overhead in daily ML operations</li>
-            <li>
-Better alignment between expert mental models and system interactions</li>
-          </ul>
+     Expanded from a single expert-built solution into a reusable platform adopted across multiple Bosch teams.<br>
+
+Demonstrated how UX can turn technical AI tools into scalable operational products.
+        </div>
+      </div>
+      <div class="row">
+        <div class="attribute">What This Demonstrates</div>
+        <div>
+
+<ul>
+<li>UX for machine learning products</li>
+<li>Workflow simplification in technical environments</li>
+<li>Enterprise multi-platform design</li>
+<li>Designing for expert and non-expert users</li>
+<li>Operational adoption of AI systems</li>
+</ul>
+
+The goal was to make ML tools more usable, understandable, and operationally practical.
         </div>
       </div>
     </div>
      <div class="learning-wrapper">
       <div class="rich-kid learning w-richtext">
         <p><strong>💭 Reflection</strong></p>
-        I avoided ML for most of my career, convinced I'd never understand it.<br/>
-This project proved me wrong. And that shift changed how I approach designing for technical domains. You don't need to be an expert to design well for experts. You need to be curious enough to ask the right questions, honest enough to admit when something doesn't make sense, and persistent enough to keep asking until it does.<br/>
-The fact that I struggled to understand existing ML tools wasn't a weakness, it was actually useful data. If I couldn't follow the flow, there was work to do. Designing from that position of genuine confusion, rather than assumed understanding, led to cleaner, more human decisions.
+Strong AI capability is only part of the equation.
+<br>
+If people cannot understand or operate the surrounding system, the value of the technology remains locked away.
       </div>
      
     </div>
