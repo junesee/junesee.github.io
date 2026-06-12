@@ -1,0 +1,66 @@
+Searching 104 files for "ggc-bg"
+
+~/junesee.github.io/index.html:
+  140    <div id="work" class="site-content home">
+  141                  <a class="big-article" href="marco.html" title="View project">
+  142:       <div class="big-article-image-wrapper ggc-bg4"></div>
+  143        <div class="project-text-wrapper">
+  144          <div class="big-article-title-wrapper">
+  ...
+  150      </a>
+  151          <a class="big-article" href="docugenai.html" title="View project">
+  152:       <div class="big-article-image-wrapper ggc-bg"></div>
+  153        <div class="project-text-wrapper">
+  154          <div class="big-article-title-wrapper">
+  ...
+  160      </a>
+  161           <a class="big-article" href="aquaeasy.html" title="View project">
+  162:       <div class="big-article-image-wrapper ggc-bg2"></div>
+  163        <div class="project-text-wrapper">
+  164          <div class="big-article-title-wrapper">
+  ...
+  193  
+  194      <!--a class="big-article" href="aidozer.html" title="View project">
+  195:       <div class="big-article-image-wrapper ggc-bg3"></div>
+  196        <div class="project-text-wrapper">
+  197          <div class="big-article-title-wrapper">
+
+~/junesee.github.io/css/style2.css:
+  538  }
+  539  
+  540: .big-article-image-wrapper.ggc-bg4 {
+  541    background-image: url('../img/marco-thumb.png');
+  542  }
+  543  
+  544: .big-article-image-wrapper.ggc-bg2 {
+  545    background-image: url('../img/shrimp.webp');
+  546  }
+  547  
+  548: .big-article-image-wrapper.ggc-bg3 {
+  549    background-image: url('../img/aidozer.png');
+  550  }
+  551  
+  552: .big-article-image-wrapper.ggc-bg {
+  553    background-image: url('../img/docugenai-thumb.png');
+  554  }
+  ...
+ 1614    }
+ 1615  
+ 1616:   .big-article-image-wrapper.ggc-bg {
+ 1617      height: 220px;
+ 1618    }
+
+~/junesee.github.io/css/style3.css:
+  602  }
+  603  
+  604: .big-article-image-wrapper.ggc-bg {
+  605    background-image: url('../images/header-group.jpg');
+  606  }
+  ...
+ 1671    }
+ 1672  
+ 1673:   .big-article-image-wrapper.ggc-bg {
+ 1674      height: 220px;
+ 1675    }
+
+11 matches across 3 files
