@@ -229,6 +229,51 @@ p.rich-kid.learning {
   display: flex;
 }
 
+.opener-image.jka-ele {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/elephant.jpeg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.opener-image.jka-chin {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/cardboard1.jpeg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.opener-image.jka-eve {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/everyone.jpeg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.opener-image.jka-cap {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/cap.jpeg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+
 .opener-image.jka6 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(255, 255, 255, 0) 72%), url('../img/marco.jpeg');
   background-position: 0 0, 50%;
