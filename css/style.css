@@ -1713,3 +1713,8 @@ textarea.w-select {
   top: 0;
   left: 0;
 }
+
+#avatar {border-radius: 50%; max-width: 168px;}
+@media (min-width: 768px) {
+#avatar {max-width: 288px;margin-top: -168px;"}
+}
